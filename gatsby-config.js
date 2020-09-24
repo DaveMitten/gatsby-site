@@ -6,5 +6,17 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
-}
+  //site 
+  siteMetadata: { title: 'test dick blog' },
+  // plugins added here, this plugin, sass is ato allow for use of sass in the project
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'files',
+        path: `${__dirname}/src/pages`
+      }
+    }
+  ]
+};

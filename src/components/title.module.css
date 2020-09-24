@@ -1,0 +1,15 @@
+.container {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #576574;
+  text-align: center;
+  text-transform: uppercase;
+  color: #576574; }
+  .container .title {
+    font-size: 50px;
+    line-height: 60px; }
+  .container .subtitle {
+    font-size: 18px;
+    font-weight: 100; }
+
+/*# sourceMappingURL=title.module.css.map */
